@@ -1,62 +1,93 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE html><html><head>
   <meta charset="UTF-8">
   <title>Muffins</title>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="text-center">
 
   <div class="line-transparent">
-    <div class="line-dark"></div>
+    <div class="line-hard"></div>
     <div class="line-medium"></div>
     <div class="line-light"></div>
   </div>
 
-  <div class="cadre margin-100px">
-    <h1 class="color-green">Les Muffins de Grand Mère</h1>
-    <h2 class="color-green">Fondants et croustillants</h2>
-    <img src="images/logo.png" alt="muffin" class="avatar">
-    <br>
-    <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="_blanck" class="btn-pink">En savoir plus</a>
+  <div class="navbar">
+    <img src="images/logosite.png" class="logo">
+    <div class="links">
+      <a href="" class="link">Présentation</a>
+      <a href="" class="link">Team</a>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+        Contact
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h3 class="color-green">MihiVai</h3>
+              <p>contact@mihivai.com</p>
+              <div>
+                <a class="socials" href="">
+                  <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </div>
 
-  <div class="cadre margin-100px">
-    <h3 class="color-green">Présentation</h3>
-    <p><b>Les muffins</b> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et <i>grossièrement</i> les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
+  <div class="cadre">
+    <h1 class="color-orange">BORDEAUX</h1>
+    <h2 class="color-orange">#Bordeauxmaville</h2>
+    <img src="images/bx.jpg" alt="muffin" class="avatar">
     <br>
-    Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
-    <br>
-    Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des "œufs Bénédicte".</p>
+    <a href="http://www.bordeaux.fr" class="btn-black">En savoir plus</a>
   </div>
 
-  <div class="cadre margin-100px">
-    <h3 class="color-green">La recette en vidéo</h3>
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="cadre">
+    <h3 class="color-orange">Bordeaux</h3>
+    <p> Bordeaux, au cœur de la région viticole, est une ville portuaire située sur la Garonne, dans le sud-ouest de la France. Elle est réputée pour la cathédrale gothique de Saint-André, ses manoirs construits aux XVIIIe et XIXe siècles, ainsi que ses musées d'art comme le musée des Beaux-Arts de Bordeaux. Les jardins publics suivent les courbes des quais qui longent le fleuve. La place de la Bourse, au centre de laquelle trône la fontaine des Trois Grâces, se reflète dans le miroir d'eau.
+    <br>
+    En 2019, elle est la neuvième commune de France par sa population avec 256 045 habitants, mais avec 796 273 habitants2, Bordeaux Métropole est la cinquième métropole de France après Paris, Lyon, Marseille, et Lille, et devant Toulouse. L'aire urbaine de Bordeaux comptait quant à elle 1 232 550 habitants en 20163, ce qui en fait la cinquième aire urbaine de France.
+    <br>
+  
   </div>
 
+  <div class="cadre">
+    <h3 class="color-orange">La ville vue des airs</h3>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/VaZA-qD22X0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </div>
 
-  <div class="display-flex margin-100px">
+  <div class="horizontal-position">
 
-    <div class="cadre text-left margin-right-30px">
-      <h4  class="color-green">Ingredients</h4>
-      <ul>
-        <li> 281 g de farine</li>
-        <li> 2 oeufs</li>
-        <li> 100 g de sucre</li>
-        <li> 150 ml de lait</li>
-        <li> 80 g de beurre (ou 8 cuillères à soupe d'huile)</li>
-        <li> 1 sachet de levure chimique</li>
-        <li> 1 sachet de sucre vanillé</li>
-        <li> 1 pincée de sel</li>
-        <li> Cannelle</li>
-        <li> Extrait de vanille</li>
-      </ul>
+    <div class="cadre-ingredients text-left">
+      <img src="images/bx.png";sizes="40px">
     </div>
 
-    <div class="cadre text-left">
-      <h4 class="color-green">Préparation</h4>
+    <div class="cadre-preparartion text-left">
+      <h4 class="color-orange">Préparation</h4>
       <ol>
         <li>
           <p><b>Etape 1</b> :
@@ -80,26 +111,60 @@
         </li>
       </ol>
     </div>
-
   </div>
 
-   <div class="cadre margin-100px">
-    <h3 class="color-green">Vos productions</h3>
-    <img src="images/production1.jpg" class="production">
-    <img src="images/production2.jpg" class="production">
-    <img src="images/production3.jpg" class="production">
+  <div class="cadre">
+    <h3 class="color-green">Les bons plans bordelais</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d45250.95061196091!2d-0.608091850603113!3d44.85854041698775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smuffins!5e0!3m2!1sfr!2sfr!4v1560421401402!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
   </div>
 
 
-  <div class="cadre margin-100px">
-    <h3 class="color-green">Une super adresse!</h3>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13041.474820093155!2d-0.5832487286951241!3d44.85219723481029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55287775d28251%3A0xb91b4d5859c103ea!2sL&#39;Atelier%20du%2048!5e0!3m2!1sfr!2sfr!4v1589537373304!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
+  <div class="cadre">
+
+    <h3 class="color-orange m-4">Une ville qui bouge</h3>
+    <div class="d-flex justify-content-between">
+      <div class="card" style="width: 18rem;">
+        <img src="images/bassinflot.jpg" class="card-img-top" alt="images/muffin1.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Ouverture Bassins de Lumières</h5>
+          <p class="card-text">Exposition de Klimt pour ouvrir les festivitées <br>Reservé votre entrée !</p>
+          <a href="https://www.lebonbon.fr/bordeaux/" class="btn btn-success">Plus d'infos ici</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/ricard.jpg" class="card-img-top" alt="images/muffin2.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Glace au ricard</h5>
+          <p class="card-text">Deux artisans Bordelais innovent et créent une glace au Ricard<br>Venez goûter !</p>
+          <a href="https://www.lebonbon.fr/bordeaux/" class="btn btn-success">Plus d'infos ici</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/indochine.jpg" class="card-img-top" alt="images/muffin3.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Indochine en concert en 2021</h5>
+          <p class="card-text">En concert au Matmut Atlantique à l'occasion d'une tournée des stages de France <br>Réservez vos places!</p>
+          <a href="https://www.lebonbon.fr/bordeaux/" class="btn btn-success">Plus d'infos ici</a>
+        </div>
+      </div>
+    </div>
   </div>
 
 
+</body></html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon Onglet</title>
+</head>
+<body>
+	<h1>Chloé Rongieras</h1>
+	<h2>EFAP Groupe 2C</h2>
+	<p>Je crée des sites web en HTML et CSS</p>
 
 
 </body>
